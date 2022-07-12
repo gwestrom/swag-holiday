@@ -1,4 +1,41 @@
 
+$('.accordion_toggle-btn').click(function() {
+
+var id = $(this).attr('id');
+ 
+    if ( $(this).parent('.accordion_toggle').parent('.holiday_accordion').hasClass('accordion_closed') ) {
+    
+    $(this).parent('.accordion_toggle').parent('.holiday_accordion').addClass('accordion_open');    
+    $(this).parent('.accordion_toggle').parent('.holiday_accordion').removeClass('accordion_closed');
+    $(this).parent('.accordion_toggle').parent('.holiday_accordion').find('.accordion_content').slideDown(500);
+ 
+    }
+    
+    else {
+        
+    $(this).parent('.accordion_toggle').parent('.holiday_accordion').addClass('accordion_closed');
+    $(this).parent('.accordion_toggle').parent('.holiday_accordion').removeClass('accordion_open');
+    $(this).parent('.accordion_toggle').parent('.holiday_accordion').find('.accordion_content').slideUp(500);
+ 
+    }
+    
+    $('html, body').animate({
+                    scrollTop: $('#'+id).offset().top
+                }, 500);
+ 
+});
+
+
+
+$('.intro_launch').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#office").offset().top
+    }, 700);
+});
+
+
+
+
 var hoverTimeout;
 
 $('.slide_hit').hover(function() {
@@ -78,7 +115,13 @@ $('#drawer_slideshow-holder').width(newW);
 });
 
 $('#holiday_nav-arrow').click(function() {
-    $(this).parent('#holiday_nav').toggleClass('arrow_down');
+    $('#holiday_nav').toggleClass('arrow_down');
+	$('#holiday_nav-overlay').toggleClass('overlay');
+});
+
+$('#holiday_nav-overlay').click(function() {
+    $('#holiday_nav').removeClass('arrow_down');
+	$('#holiday_nav-overlay').removeClass('overlay');
 });
 
 var mySlide,
