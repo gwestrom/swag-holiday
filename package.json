@@ -1,0 +1,17 @@
+{
+  "name": "swag-holiday",
+  "version": "1.0.0",
+  "description": "Repository for code and deliverable assets for the swag.com holiday page",
+  "main": "index.htm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwestrom/swag-holiday.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwestrom/swag-holiday/issues"
+  },
+  "homepage": "https://github.com/gwestrom/swag-holiday#readme"
+}
