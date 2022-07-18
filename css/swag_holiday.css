@@ -2,7 +2,7 @@
 
 #holiday_mobile {z-index:1; position:relative; width:100%; padding:0 0 50px 0;}
 
-#holiday_mobile-intro {z-index:1; position:relative; width:100%; background:#b6a3ba;}
+#holiday_mobile-intro {z-index:1; position:relative; width:100%; background:#CAC1B7;}
 #holiday_mobile-intro-text {z-index:1; position:relative; width:100%; padding:20px 15px; color:#fff;}
 #holiday_mobile-intro-text h2 {margin:0 0 12px 0; padding:0; font-size:32px; line-height:40px; font-family:'avertaextrabold', sans-serif; font-weight:400;}
 #holiday_mobile-intro-text p {margin:0 0 12px 0; padding:0; font-size:15px; line-height:26px; font-family:'avertabold', sans-serif; font-weight:400;}
@@ -51,7 +51,7 @@ transform:rotate(-90deg);
 #holiday_intro {z-index:1; position:relative; overflow:hidden; width:100%; min-height:calc(100vh - 40px); display:none;
 background:#CAC1B7;}
 
-#holiday_intro-splash {position:absolute; height:100%; width:100%; top:0; bottom:0; left:0; right:0; background:url("../images/splash_transparent2.webp") center center no-repeat; background-size:auto 100%; z-index:1;}
+#holiday_intro-splash {position:absolute; height:100%; width:100%; top:0; bottom:0; left:0; right:0; background:url("../images/splash_transparent.webp") center center no-repeat; background-size:auto 100%; z-index:1;}
 
 
 #holiday_intro-section {width:100%; max-width:1700px; z-index:1; position:absolute; height:100%; top:0; bottom:0; left:50%; transform:translateX(-50%);}
@@ -129,27 +129,18 @@ background:#CAC1B7;}
 	}
 }
 
-#holiday_intro-right {width:51%; position:absolute; top:0; bottom:0; height:100%; right:3%; background:url("../images/intro_trans.png") right center no-repeat; background-size:contain;}
-
-
-
-
-
-
-
-
-
 #holiday_slideshow-holder {z-index:1; position:relative; width:100%; min-height:100vh; display:none;}
 #holiday_slideshow {z-index:1; position:relative; width:100%; min-height:100vh;}
 
 .holiday_slide {z-index:1; position:relative; width:100%; min-height:100vh;}
 .holiday_slide-img {z-index:1; position:absolute; width:100%; height:100%; left:0; right:0; top:0; bottom:0;}
-#office_slide-img {background:#b97745 url("../images/office.webp") center center no-repeat; background-size:contain;}
-#adventure_slide-img {background:#bbb1a6 url("../images/adventure.jpg") center center no-repeat; background-size:contain;}
-#wfh_slide-img {background:#99816a url("../images/wfh.webp") center center no-repeat; background-size:contain;}
-#tradeshow_slide-img {background:#666 url("../images/tradeshow.jpg") center center no-repeat; background-size:contain;}
+
+#office_slide-img {background:#C1A293 url("../images/office.webp") center center no-repeat; background-size:contain;}
+#adventure_slide-img {background:#BED09D url("../images/adventure.webp") center center no-repeat; background-size:contain;}
+#wfh_slide-img {background:#B6A494 url("../images/wfh.webp") center center no-repeat; background-size:contain;}
+#tradeshow_slide-img {background:#B8B8BE url("../images/tradeshow.webp") center center no-repeat; background-size:contain;}
 #retreat_slide-img {background:#666 url("../images/retreat.jpg") center center no-repeat; background-size:contain;}
-#happyhour_slide-img {background:#666 url("../images/happyhour.jpg") center center no-repeat; background-size:contain;}
+#happyhour_slide-img {background:#C19C70 url("../images/happyhour.jpg") center center no-repeat; background-size:contain;}
 #commute_slide-img {background:#666 url("../images/commute.jpg") center center no-repeat; background-size:contain;}
 #closet_slide-img {background:#666 url("../images/closet.jpg") center center no-repeat; background-size:contain;}
 #final_slide-img {background:#FFA051;}
@@ -483,8 +474,8 @@ transition:opacity 0.5s ease, visibility .5s ease;
 
 #final_slide-link {
     display:block;
-    background-color:#a080cf;
-    border-color:#a080cf;
+    background-color:#8056bf;
+    border-color:#8056bf;
     border-width: 0;
     color: #fff;
     font-family: avertaextrabold,San Francisco,Roboto,Segoe UI,Helvetica Neue,Lucida Grande,Arial,sans-serif;
@@ -660,7 +651,7 @@ transition: height .5s ease;
 #holiday_nav-arrow {
 	display:block;
 	left: calc(50%);
-    top:-55px;
+    top:-65px;
 	position: absolute;
 	-webkit-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
@@ -711,9 +702,9 @@ transform:rotate(180deg);
 .drawer_slide {width:415px; height:232px; float:left; margin:0 20px 0 0; cursor:pointer; position:relative;}
 
 .drawer_slide-office {background:url("../images/office.webp") center center no-repeat; background-size:cover;}
-.drawer_slide-adventure {background:url("../images/adventure.jpg") center center no-repeat; background-size:cover;}
+.drawer_slide-adventure {background:url("../images/adventure.webp") center center no-repeat; background-size:cover;}
 .drawer_slide-wfh {background:url("../images/wfh.webp") center center no-repeat; background-size:cover;}
-.drawer_slide-tradeshow {background:url("../images/tradeshow.jpg") center center no-repeat; background-size:cover;}
+.drawer_slide-tradeshow {background:url("../images/tradeshow.webp") center center no-repeat; background-size:cover;}
 .drawer_slide-retreat {background:url("../images/retreat.jpg") center center no-repeat; background-size:cover;}
 .drawer_slide-happyhour {background:url("../images/happyhour.jpg") center center no-repeat; background-size:cover;}
 .drawer_slide-commute {background:url("../images/commute.jpg") center center no-repeat; background-size:cover;}
