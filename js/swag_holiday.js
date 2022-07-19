@@ -31,9 +31,13 @@ $('.intro_launch').click(function() {
     $('html, body').animate({
         scrollTop: $("#office").offset().top
     }, 700);
+	
+if ($('#holiday_page').hasClass('slidenumber-1')) {
+window.location.hash = "office";
+}
+
+	
 });
-
-
 
 
 var hoverTimeout;
@@ -165,12 +169,55 @@ $('#holiday_slideshow').slick({
 // On after main slide change
 $('#holiday_slideshow').on('afterChange', function(event, slick, currentSlide){
 
-$('#page').removeClass (function (index, className) {
+$('#holiday_page').removeClass (function (index, className) {
     return (className.match (/\bslidenumber-\S+/g) || []).join(' ');
 });
 currentHolidaySlide = currentSlide;
 mySlide = currentSlide +1;
-$('#page').addClass('slidenumber-'+mySlide);
+$('#holiday_page').addClass('slidenumber-'+mySlide);
+
+switch (mySlide) {
+case 1:
+window.location.hash = "office";
+break;
+		
+case 2:
+window.location.hash = "wfh";
+break;
+		
+case 3:
+window.location.hash = "tradeshow";
+break;
+		
+case 4:
+window.location.hash = "adventure";
+break;
+		
+case 5:
+window.location.hash = "retreat";
+break;
+		
+case 6:
+window.location.hash = "gamenight";
+break;
+		
+case 7:
+window.location.hash = "commute";
+break;
+		
+case 8:
+window.location.hash = "closet";
+break;
+		
+case 9:
+window.location.hash = "final";
+break;	
+		
+default:
+window.location.hash = "";
+}
+
+
 
 if (currentHolidaySlide != currentDrawerSlide) {
 $('#drawer_slideshow').slick('slickGoTo', currentSlide);
@@ -178,3 +225,93 @@ $('#drawer_slideshow').slick('slickGoTo', currentSlide);
 
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+if(window.location.hash != ''){
+	
+
+	
+var myHash
+var myHashSlide
+myHash = window.location.hash;
+myHashSlide = 0;
+	
+switch (myHash) {
+case '#office':
+myHashSlide = 1;
+break;
+
+case '#wfh':
+myHashSlide = 2;
+break;
+
+case '#tradeshow':
+myHashSlide = 3;
+break;
+
+case '#adventure':
+myHashSlide = 4;
+break;
+
+case '#retreat':
+myHashSlide = 5;
+break;
+
+case '#gamenight':
+myHashSlide = 6;
+break;
+
+case '#commute':
+myHashSlide = 7;
+break;
+
+case '#closet':
+myHashSlide = 8;
+break;
+
+case '#final':
+myHashSlide = 9;
+break;
+
+default:
+myHashSlide = 0;
+}
+
+// 
+
+if (myHashSlide > 0) {
+
+$('html, body').animate({
+    scrollTop: $("#office").offset().top
+}, 700);
+$('#holiday_slideshow').slick('slickGoTo', myHashSlide-1);
+
+$('#holiday_page').removeClass (function (index, className) {
+    return (className.match (/\bslidenumber-\S+/g) || []).join(' ');
+});
+
+$('#holiday_page').addClass('slidenumber-'+myHashSlide);
+
+}
+
+
+} 
+//
+

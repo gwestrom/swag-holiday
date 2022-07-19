@@ -35,6 +35,8 @@ transform:rotate(180deg);
 .accordion_list {padding:15px;}
 .accordion_list ul {font-family:'avertaextrabold', sans-serif; color:#000; font-size:20px; line-height:30px; padding:0; margin:0 0 0 1em;}
 .accordion_list ul li {margin:0 0 10px 0;}
+.accordion_list ul li a {color:#000; text-decoration:none;}
+.accordion_list ul li a:hover {color:#000; text-decoration:none;}
 .accordion_list a.holiday_accordion-seemore {display:block; color:#00BFFF; text-decoration:underline; font-family:'avertaextrabold', sans-serif; font-size:20px; line-height:30px; text-align:right;}
 
 #holiday_accordion-contact {}
@@ -140,7 +142,7 @@ background:#CAC1B7;}
 #wfh_slide-img {background:#B6A494 url("../images/wfh.webp") center center no-repeat; background-size:contain;}
 #tradeshow_slide-img {background:#B8B8BE url("../images/tradeshow.webp") center center no-repeat; background-size:contain;}
 #retreat_slide-img {background:#666 url("../images/retreat.jpg") center center no-repeat; background-size:contain;}
-#happyhour_slide-img {background:#C19C70 url("../images/happyhour.jpg") center center no-repeat; background-size:contain;}
+#gamenight_slide-img {background:#C19C70 url("../images/gamenight.webp") center center no-repeat; background-size:contain;}
 #commute_slide-img {background:#666 url("../images/commute.jpg") center center no-repeat; background-size:contain;}
 #closet_slide-img {background:#666 url("../images/closet.jpg") center center no-repeat; background-size:contain;}
 #final_slide-img {background:#FFA051;}
@@ -383,32 +385,36 @@ transition:opacity 0.5s ease, visibility .5s ease;
 #retreat_btn6-holder {bottom:78px; right:0; transform:translate(0, 0);}
 
 /* ***** */
-/* Happy Hour Scene */
+/* Game Night Scene */
 /* ***** */
 
 /* Hit 1 */
-#happyhour_hit1-holder {right:calc(90% - 14px); top:calc(10% - 14px);}
-#happyhour_btn1-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#gamenight_hit1-holder {right:calc(73.5% - 14px); top:calc(35% - 14px);}
+#gamenight_btn1-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 2 */
-#happyhour_hit2-holder {right:calc(80% - 14px); top:calc(10% - 14px);}
-#happyhour_btn2-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#gamenight_hit2-holder {right:calc(35.5% - 14px); top:calc(60% - 14px);}
+#gamenight_btn2-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 3 */
-#happyhour_hit3-holder {right:calc(70% - 14px); top:calc(10% - 14px);}
-#happyhour_btn3-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#gamenight_hit3-holder {right:calc(9.5% - 14px); top:calc(45% - 14px);}
+#gamenight_btn3-holder {bottom:78px; right:0; transform:translate(0, 0);}
 
 /* Hit 4 */
-#happyhour_hit4-holder {right:calc(60% - 14px); top:calc(10% - 14px);}
-#happyhour_btn4-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#gamenight_hit4-holder {right:calc(60% - 14px); top:calc(49.5% - 14px);}
+#gamenight_btn4-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 5 */
-#happyhour_hit5-holder {right:calc(30% - 14px); top:calc(10% - 14px);}
-#happyhour_btn5-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#gamenight_hit5-holder {right:calc(78.5% - 14px); top:calc(65% - 14px);}
+#gamenight_btn5-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 6 */
-#happyhour_hit6-holder {right:calc(20% - 14px); top:calc(10% - 14px);}
-#happyhour_btn6-holder {bottom:78px; right:0; transform:translate(0, 0);}
+#gamenight_hit6-holder {right:calc(41.5% - 14px); top:calc(35% - 14px);}
+#gamenight_btn6-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+
+/* Hit 7 */
+#gamenight_hit7-holder {right:calc(57.5% - 14px); top:calc(55.5% - 14px);}
+#gamenight_btn7-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* ***** */
 /* Commute Scene */
@@ -706,7 +712,7 @@ transform:rotate(180deg);
 .drawer_slide-wfh {background:url("../images/wfh.webp") center center no-repeat; background-size:cover;}
 .drawer_slide-tradeshow {background:url("../images/tradeshow.webp") center center no-repeat; background-size:cover;}
 .drawer_slide-retreat {background:url("../images/retreat.jpg") center center no-repeat; background-size:cover;}
-.drawer_slide-happyhour {background:url("../images/happyhour.jpg") center center no-repeat; background-size:cover;}
+.drawer_slide-gamenight {background:url("../images/gamenight.webp") center center no-repeat; background-size:cover;}
 .drawer_slide-commute {background:url("../images/commute.jpg") center center no-repeat; background-size:cover;}
 .drawer_slide-closet {background:url("../images/closet.jpg") center center no-repeat; background-size:cover;}
 .drawer_slide-final {background:url("../images/final.jpg") center center no-repeat; background-size:cover;}
