@@ -210,7 +210,7 @@ window.location.hash = "closet";
 break;
 		
 case 9:
-window.location.hash = "final";
+window.location.hash = "contact";
 break;	
 		
 default:
@@ -286,7 +286,7 @@ case '#closet':
 myHashSlide = 8;
 break;
 
-case '#final':
+case '#contact':
 myHashSlide = 9;
 break;
 

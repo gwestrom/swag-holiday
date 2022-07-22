@@ -141,10 +141,10 @@ background:#CAC1B7;}
 #adventure_slide-img {background:#BED09D url("../images/adventure.webp") center center no-repeat; background-size:contain;}
 #wfh_slide-img {background:#B6A494 url("../images/wfh.webp") center center no-repeat; background-size:contain;}
 #tradeshow_slide-img {background:#B8B8BE url("../images/tradeshow.webp") center center no-repeat; background-size:contain;}
-#retreat_slide-img {background:#666 url("../images/retreat.jpg") center center no-repeat; background-size:contain;}
+#retreat_slide-img {background:#BEB5B2 url("../images/retreat.webp") center center no-repeat; background-size:contain;}
 #gamenight_slide-img {background:#C19C70 url("../images/gamenight.webp") center center no-repeat; background-size:contain;}
-#commute_slide-img {background:#666 url("../images/commute.jpg") center center no-repeat; background-size:contain;}
-#closet_slide-img {background:#666 url("../images/closet.jpg") center center no-repeat; background-size:contain;}
+#commute_slide-img {background:#DBD0C3 url("../images/commute.webp") center center no-repeat; background-size:contain;}
+#closet_slide-img {background:#B4774F url("../images/closet.webp") center center no-repeat; background-size:contain;}
 #final_slide-img {background:#FFA051;}
 
 .holiday_slide-holder {z-index:1; width:100%; position:absolute; left:50%; top:50%; transform:translate(-50%, -50%); max-width:100%; overflow:hidden;
@@ -226,12 +226,12 @@ transition:opacity 0.5s ease, visibility .5s ease;
 
 
 /* Hit 2 */
-#office_hit2-holder {right:calc(17% - 14px); top:calc(41% - 14px);}
+#office_hit2-holder {right:calc(19% - 14px); top:calc(41% - 14px);}
 #office_btn2-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 3 */
 #office_hit3-holder {right:calc(10.75% - 14px); top:calc(52% - 14px);}
-#office_btn3-holder {top:78px; left:50%; transform:translate(-50%, 0);}
+#office_btn3-holder {top:78px; right:0; transform:translate(0, 0);}
 #office_hit3-holder .slide_hit:after {top:100%; bottom:auto;}
 
 /* Hit 4 */
@@ -250,9 +250,6 @@ transition:opacity 0.5s ease, visibility .5s ease;
 #office_hit6 .circle {border-color:#a1a1a1;}
 #office_hit6-holder.hovered #office_hit6 {border-color:#fff;}
 
-
-
-
 /* ***** */
 /* Outdoor Scene */
 /* ***** */
@@ -267,19 +264,20 @@ transition:opacity 0.5s ease, visibility .5s ease;
 
 /* Hit 3 */
 #adventure_hit3-holder {right:calc(15% - 14px); top:calc(55% - 14px);}
-#adventure_btn3-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#adventure_btn3-holder {bottom:78px; right:0; transform:translate(0, 0);}
 
 /* Hit 4 */
-#adventure_hit4-holder {right:calc(74% - 14px); top:calc(72% - 14px);}
-#adventure_btn4-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#adventure_hit4-holder {right:calc(77% - 14px); top:calc(70.25% - 14px);}
+#adventure_btn4-holder {bottom:78px; left:0; transform:translate(0, 0);}
 
 /* Hit 5 */
 #adventure_hit5-holder {right:calc(26% - 14px); top:calc(36% - 14px);}
 #adventure_btn5-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 6 */
-#adventure_hit6-holder {right:calc(77% - 14px); top:calc(30% - 14px);}
-#adventure_btn6-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#adventure_hit6-holder {right:calc(74% - 14px); top:calc(30% - 14px);}
+#adventure_btn6-holder {top:78px; left:50%; transform:translate(-50%, 0);}
+#adventure_hit6-holder .slide_hit:after {top:100%; bottom:auto;}
 
 
 /* ***** */
@@ -288,7 +286,7 @@ transition:opacity 0.5s ease, visibility .5s ease;
 
 /* Hit 1 */
 #wfh_hit1-holder {right:calc(85% - 14px); top:calc(60% - 14px);}
-#wfh_btn1-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#wfh_btn1-holder {bottom:78px; left:0; transform:translate(0, 0);}
 
 /* Hit 2 */
 #wfh_hit2-holder {right:calc(71% - 14px); top:calc(41% - 14px);}
@@ -306,10 +304,6 @@ transition:opacity 0.5s ease, visibility .5s ease;
 #wfh_hit4-holder {right:calc(64% - 14px); top:calc(83% - 14px);}
 #wfh_btn4-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
-/* #wfh_hit4 {border-color:#a1a1a1;}
-#wfh_hit4 .circle {border-color:#a1a1a1;}
-#wfh_hit4-holder.hovered #wfh_hit4 {border-color:#fff;} */
-
 /* Hit 5 */
 #wfh_hit5-holder {right:calc(24% - 14px); top:calc(32% - 14px);}
 #wfh_btn5-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
@@ -324,7 +318,7 @@ transition:opacity 0.5s ease, visibility .5s ease;
 
 /* Hit 1 */
 #tradeshow_hit1-holder {right:calc(10% - 14px); top:calc(30% - 14px);}
-#tradeshow_btn1-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#tradeshow_btn1-holder {bottom:78px; right:0; transform:translate(0, 0);}
 
 /* Hit 2 */
 #tradeshow_hit2-holder {right:calc(70% - 14px); top:calc(50% - 14px);}
@@ -351,8 +345,8 @@ transition:opacity 0.5s ease, visibility .5s ease;
 #tradeshow_btn7-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 8 */
-#tradeshow_hit8-holder {right:calc(85% - 14px); top:calc(65% - 14px);}
-#tradeshow_btn8-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#tradeshow_hit8-holder {right:calc(85% - 14px); top:calc(69% - 14px);}
+#tradeshow_btn8-holder {bottom:78px; left:0; transform:translate(0, 0);}
 
 
 
@@ -361,35 +355,36 @@ transition:opacity 0.5s ease, visibility .5s ease;
 /* ***** */
 
 /* Hit 1 */
-#retreat_hit1-holder {right:calc(90% - 14px); top:calc(10% - 14px);}
-#retreat_btn1-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#retreat_hit1-holder {right:calc(81% - 14px); top:calc(29% - 14px);}
+#retreat_btn1-holder {bottom:78px; left:0; transform:translate(0, 0);}
 
 /* Hit 2 */
-#retreat_hit2-holder {right:calc(80% - 14px); top:calc(10% - 14px);}
-#retreat_btn2-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#retreat_hit2-holder {right:calc(71% - 14px); top:calc(19% - 14px);}
+#retreat_btn2-holder {top:78px; left:50%; transform:translate(-50%, 0);}
+#retreat_hit2-holder .slide_hit:after {top:100%; bottom:auto;}
 
 /* Hit 3 */
-#retreat_hit3-holder {right:calc(70% - 14px); top:calc(10% - 14px);}
+#retreat_hit3-holder {right:calc(47% - 14px); top:calc(36% - 14px);}
 #retreat_btn3-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 4 */
-#retreat_hit4-holder {right:calc(60% - 14px); top:calc(10% - 14px);}
-#retreat_btn4-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#retreat_hit4-holder {right:calc(20% - 14px); top:calc(62% - 14px);}
+#retreat_btn4-holder {bottom:78px; right:0; transform:translate(0, 0);}
 
 /* Hit 5 */
-#retreat_hit5-holder {right:calc(30% - 14px); top:calc(10% - 14px);}
+#retreat_hit5-holder {right:calc(47% - 14px); top:calc(87% - 14px);}
 #retreat_btn5-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 6 */
-#retreat_hit6-holder {right:calc(20% - 14px); top:calc(10% - 14px);}
-#retreat_btn6-holder {bottom:78px; right:0; transform:translate(0, 0);}
+#retreat_hit6-holder {right:calc(63% - 14px); top:calc(72% - 14px);}
+#retreat_btn6-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* ***** */
 /* Game Night Scene */
 /* ***** */
 
 /* Hit 1 */
-#gamenight_hit1-holder {right:calc(73.5% - 14px); top:calc(35% - 14px);}
+#gamenight_hit1-holder {right:calc(73.5% - 14px); top:calc(34% - 14px);}
 #gamenight_btn1-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 2 */
@@ -405,7 +400,7 @@ transition:opacity 0.5s ease, visibility .5s ease;
 #gamenight_btn4-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 5 */
-#gamenight_hit5-holder {right:calc(78.5% - 14px); top:calc(65% - 14px);}
+#gamenight_hit5-holder {right:calc(75.25% - 14px); top:calc(65% - 14px);}
 #gamenight_btn5-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 6 */
@@ -421,56 +416,62 @@ transition:opacity 0.5s ease, visibility .5s ease;
 /* ***** */
 
 /* Hit 1 */
-#commute_hit1-holder {right:calc(90% - 14px); top:calc(10% - 14px);}
-#commute_btn1-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#commute_hit1-holder {right:calc(82% - 14px); top:calc(83% - 14px);}
+#commute_btn1-holder {bottom:78px; left:0; transform:translate(0, 0);}
 
 /* Hit 2 */
-#commute_hit2-holder {right:calc(80% - 14px); top:calc(10% - 14px);}
+#commute_hit2-holder {right:calc(66.5% - 14px); top:calc(85.5% - 14px);}
 #commute_btn2-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 3 */
-#commute_hit3-holder {right:calc(70% - 14px); top:calc(10% - 14px);}
+#commute_hit3-holder {right:calc(64% - 14px); top:calc(61% - 14px);}
 #commute_btn3-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 4 */
-#commute_hit4-holder {right:calc(60% - 14px); top:calc(10% - 14px);}
+#commute_hit4-holder {right:calc(50% - 14px); top:calc(72% - 14px);}
 #commute_btn4-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 5 */
-#commute_hit5-holder {right:calc(30% - 14px); top:calc(10% - 14px);}
+#commute_hit5-holder {right:calc(47.58% - 14px); top:calc(47% - 14px);}
 #commute_btn5-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 6 */
-#commute_hit6-holder {right:calc(20% - 14px); top:calc(10% - 14px);}
-#commute_btn6-holder {bottom:78px; right:0; transform:translate(0, 0);}
+#commute_hit6-holder {right:calc(32% - 14px); top:calc(26% - 14px);}
+#commute_btn6-holder {top:78px; left:50%; transform:translate(-50%, 0);}
+#commute_hit6-holder .slide_hit:after {top:100%; bottom:auto;}
+
+/* Hit 7 */
+#commute_hit7-holder {right:calc(31% - 14px); top:calc(58% - 14px);}
+#commute_btn7-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* ***** */
 /* Closet Scene */
 /* ***** */
 
 /* Hit 1 */
-#closet_hit1-holder {right:calc(90% - 14px); top:calc(10% - 14px);}
+#closet_hit1-holder {right:calc(55% - 14px); top:calc(48.8% - 14px);}
 #closet_btn1-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 2 */
-#closet_hit2-holder {right:calc(80% - 14px); top:calc(10% - 14px);}
+#closet_hit2-holder {right:calc(70% - 14px); top:calc(51.5% - 14px);}
 #closet_btn2-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 3 */
-#closet_hit3-holder {right:calc(70% - 14px); top:calc(10% - 14px);}
-#closet_btn3-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#closet_hit3-holder {right:calc(25% - 14px); top:calc(55% - 14px);}
+#closet_btn3-holder {bottom:78px; right:0; transform:translate(0, 0);}
 
 /* Hit 4 */
-#closet_hit4-holder {right:calc(60% - 14px); top:calc(10% - 14px);}
+#closet_hit4-holder {right:calc(35.5% - 14px); top:calc(45% - 14px);}
 #closet_btn4-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
 
 /* Hit 5 */
-#closet_hit5-holder {right:calc(30% - 14px); top:calc(10% - 14px);}
-#closet_btn5-holder {bottom:78px; left:50%; transform:translate(-50%, 0);}
+#closet_hit5-holder {right:calc(85% - 14px); top:calc(78% - 14px);}
+#closet_btn5-holder {bottom:78px; left:0; transform:translate(0, 0);}
 
 /* Hit 6 */
-#closet_hit6-holder {right:calc(20% - 14px); top:calc(10% - 14px);}
-#closet_btn6-holder {bottom:78px; right:0; transform:translate(0, 0);}
+#closet_hit6-holder {right:calc(43% - 14px); top:calc(30% - 14px);}
+#closet_btn6-holder {top:78px; left:50%; transform:translate(-50%, 0);}
+#closet_hit6-holder .slide_hit:after {top:100%; bottom:auto;}
 
 
 /* Final Slide */
@@ -711,10 +712,10 @@ transform:rotate(180deg);
 .drawer_slide-adventure {background:url("../images/adventure.webp") center center no-repeat; background-size:cover;}
 .drawer_slide-wfh {background:url("../images/wfh.webp") center center no-repeat; background-size:cover;}
 .drawer_slide-tradeshow {background:url("../images/tradeshow.webp") center center no-repeat; background-size:cover;}
-.drawer_slide-retreat {background:url("../images/retreat.jpg") center center no-repeat; background-size:cover;}
+.drawer_slide-retreat {background:url("../images/retreat.webp") center center no-repeat; background-size:cover;}
 .drawer_slide-gamenight {background:url("../images/gamenight.webp") center center no-repeat; background-size:cover;}
-.drawer_slide-commute {background:url("../images/commute.jpg") center center no-repeat; background-size:cover;}
-.drawer_slide-closet {background:url("../images/closet.jpg") center center no-repeat; background-size:cover;}
+.drawer_slide-commute {background:url("../images/commute.webp") center center no-repeat; background-size:cover;}
+.drawer_slide-closet {background:url("../images/closet.webp") center center no-repeat; background-size:cover;}
 .drawer_slide-final {background:url("../images/final.jpg") center center no-repeat; background-size:cover;}
 
 .drawer_slide:before {content:" "; display:block; position:absolute; top:0; bottom:0; left:0; right:0; background:#000; opacity:.55;}
