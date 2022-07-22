@@ -29,11 +29,11 @@ var id = $(this).attr('id');
 
 $('.intro_launch').click(function() {
     $('html, body').animate({
-        scrollTop: $("#office").offset().top
+        scrollTop: $("#commute").offset().top
     }, 700);
 	
 if ($('#holiday_page').hasClass('slidenumber-1')) {
-window.location.hash = "office";
+window.location.hash = "commute";
 }
 
 	
@@ -177,34 +177,35 @@ mySlide = currentSlide +1;
 $('#holiday_page').addClass('slidenumber-'+mySlide);
 
 switch (mySlide) {
+
 case 1:
+window.location.hash = "commute";
+break;
+
+case 2:
 window.location.hash = "office";
 break;
 		
-case 2:
+case 3:
 window.location.hash = "wfh";
 break;
 		
-case 3:
+case 4:
 window.location.hash = "tradeshow";
 break;
 		
-case 4:
+case 5:
 window.location.hash = "adventure";
 break;
 		
-case 5:
+case 6:
 window.location.hash = "retreat";
 break;
 		
-case 6:
+case 7:
 window.location.hash = "gamenight";
 break;
-		
-case 7:
-window.location.hash = "commute";
-break;
-		
+	
 case 8:
 window.location.hash = "closet";
 break;
@@ -254,31 +255,31 @@ myHash = window.location.hash;
 myHashSlide = 0;
 	
 switch (myHash) {
-case '#office':
+case '#commute':
 myHashSlide = 1;
 break;
 
-case '#wfh':
+case '#office':
 myHashSlide = 2;
 break;
 
-case '#tradeshow':
+case '#wfh':
 myHashSlide = 3;
 break;
 
-case '#adventure':
+case '#tradeshow':
 myHashSlide = 4;
 break;
 
-case '#retreat':
+case '#adventure':
 myHashSlide = 5;
 break;
 
-case '#gamenight':
+case '#retreat':
 myHashSlide = 6;
 break;
 
-case '#commute':
+case '#gamenight':
 myHashSlide = 7;
 break;
 
@@ -299,7 +300,7 @@ myHashSlide = 0;
 if (myHashSlide > 0) {
 
 $('html, body').animate({
-    scrollTop: $("#office").offset().top
+    scrollTop: $("#commute").offset().top
 }, 700);
 $('#holiday_slideshow').slick('slickGoTo', myHashSlide-1);
 

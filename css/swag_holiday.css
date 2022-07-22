@@ -2,7 +2,7 @@
 
 #holiday_mobile {z-index:1; position:relative; width:100%; padding:0 0 50px 0;}
 
-#holiday_mobile-intro {z-index:1; position:relative; width:100%; background:#CAC1B7;}
+#holiday_mobile-intro {z-index:1; position:relative; width:100%; background:#FFA051;}
 #holiday_mobile-intro-text {z-index:1; position:relative; width:100%; padding:20px 15px; color:#fff;}
 #holiday_mobile-intro-text h2 {margin:0 0 12px 0; padding:0; font-size:32px; line-height:40px; font-family:'avertaextrabold', sans-serif; font-weight:400;}
 #holiday_mobile-intro-text p {margin:0 0 12px 0; padding:0; font-size:15px; line-height:26px; font-family:'avertabold', sans-serif; font-weight:400;}
@@ -51,7 +51,7 @@ transform:rotate(-90deg);
 
 
 #holiday_intro {z-index:1; position:relative; overflow:hidden; width:100%; min-height:calc(100vh - 40px); display:none;
-background:#CAC1B7;}
+background:#FFA051;}
 
 #holiday_intro-splash {position:absolute; height:100%; width:100%; top:0; bottom:0; left:0; right:0; background:url("../images/splash_transparent.webp") center center no-repeat; background-size:auto 100%; z-index:1;}
 
@@ -651,7 +651,7 @@ transition:opacity 0.5s ease, visibility .5s ease;
 transition: height .5s ease;
 }
 
-#holiday_nav-drawer {position:absolute; top:0; bottom:0; left:50%; transform:translateX(-50%); overflow:hidden;}
+#holiday_nav-drawer {position:absolute; top:0; bottom:0; left:50%; transform:translateX(-50%); overflow:hidden;margin: 0 0 20px 0;}
 
 #holiday_nav.arrow_down {height:332px;}
 
@@ -719,7 +719,7 @@ transform:rotate(180deg);
 .drawer_slide-final {background:url("../images/final.jpg") center center no-repeat; background-size:cover;}
 
 .drawer_slide:before {content:" "; display:block; position:absolute; top:0; bottom:0; left:0; right:0; background:#000; opacity:.55;}
-.drawer_slide-number {display:block; position:absolute; top:2px; right:2px; color:#fff; font-size:12px;}
+.drawer_slide-number {display:block; position:absolute; top:3px; right:5px; color:#fff; font-size:12px;}
 .drawer_slide-text {display:block; position:absolute; bottom:20px; left:10px; color:#fff; font-size:18px;}
 .drawer_slide:after {content:" "; display:block; position:absolute; top:0; bottom:0; left:0; right:0; cursor:pointer;}
 
