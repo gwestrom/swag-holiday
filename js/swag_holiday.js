@@ -1,4 +1,16 @@
 
+window.addEventListener('load',function(){
+  initializeV();
+  function initializeV(){
+  var vh = window.parent.innerHeight/100;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+  }
+
+  window.parent.addEventListener('resize',function(){
+  initializeV();
+  });
+});
+
 $('.accordion_toggle-btn').click(function() {
 
 var id = $(this).attr('id');
